@@ -62,6 +62,7 @@ const Cards = ({ estilo }) => {
               </CardContent>
               <CardActions>
                 <Button
+                  href="#simulation"
                   fullWidth
                   variant={plan.minutes === '60' ? 'contained' : 'outlined'}
                   style={{

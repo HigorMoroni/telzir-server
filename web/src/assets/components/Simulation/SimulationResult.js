@@ -24,11 +24,13 @@ const SimulationResult = ({ back, values, estilo }) => {
       <Grid item xs={8} style={{marginLeft: '16%'}}>
         <TableContainer component={Paper}>
           <Table className={classes.table} aria-label="caption table">
-            <caption style={{textAlign:"center"}}>Um economia de xx% com a FaleMais</caption>
+            <caption style={{textAlign:"center"}}>
+              {`Uma economia de ${Math.round(((values.comFaleMais/values.semFaleMais-1)*(-100)))}% com o FaleMais`}
+            </caption>
             <TableHead 
               style={{
                 backgroundColor: values.plano === '30' ?'#26acdf' : 
-                values.plano === '60' ? '##f9b233' : '#e02e30',
+                values.plano === '60' ? '#f9b233' : '#e02e30',
               }}>
               <TableRow>
                 <TableCell 

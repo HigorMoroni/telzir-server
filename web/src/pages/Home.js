@@ -45,7 +45,7 @@ const Home = () => {
         </Typography>
       </Container>
       <Cards estilo={{ ...classes }} />
-      <Container maxWidth="md" component="main" className={classes.simulation}>
+      <Container id="simulation" maxWidth="md" component="main" className={classes.simulation}>
         <Card>
           <CardContent>
             <Typography

@@ -18,7 +18,7 @@ const Simulation = ({ estilo }) => {
 
   const next = async () => {
     api.post('simulation', values).then((response) => {
-      const [comFaleMais, semFaleMais] = response;
+      const [comFaleMais, semFaleMais] = response.data;
       setSemFaleMais(semFaleMais);
       setComFaleMais(comFaleMais);
     });
