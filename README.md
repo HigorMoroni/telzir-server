@@ -5,6 +5,10 @@ Esse projeto consiste em uma aplicação web da empresa ficticia Telzir Telecom 
 
 <img src="./screens/desktop.png" alt="FaleMais" height="400"> <img src="./screens/mobile.jpg" alt="FaleMais" height="400">
 
+# Outros Repositórios
+
+#### <a href="https://github.com/HigorMoroni/telzir-web">Aplicação Web</a>
+
 ## Construido com
 
 Construido com :yellow_heart: usando as tecnologias:
